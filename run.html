@@ -1,0 +1,68 @@
+<html>
+    <head>
+	<link rel="stylesheet" href="indexstyle.css">
+       <style> textarea, iframe
+	   {
+border:2px solid #400040;
+height:800px;
+width:100%;
+}
+</style>
+	 </head>
+	 <body>
+	 	<ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="basics.html">The Basics.</a></li>
+	<li><a href="css.html">Intro to CSS</a></li>
+	<li><a class="active" href="run.html">Type and Execute HTML right in your browser</a></li>
+	<li><a href="HTML_Basics.pdf" target="_blank">An PDF File for learning HTML</a></li>
+	<li><a href="https://www.w3schools.com/TAgs/default.asp" target="_blank">List of all the tags</a></li>
+   <li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a></li>
+   <li><a href="https://atom.io/" target="_blank">Atom</a></li>
+</ul>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+	 <table border="2" width="100%" height="100%"> <tr bgcolor="#efdfff"><th>
+	 <table width="100%" height="100%" border="0" cellspacing="5" cellpadding="5">
+	 <tr>
+<td width="50%" scope="col">  </td> 
+<td width="50%" scope="col" align="left"> 
+</td>
+</tr>
+<td>
+<form>
+<center><b>Write Your Code here!</b></center>
+<textarea name="sourceCode" id="sourceCode">
+<html>
+<head> <title>My Codes</title> </head>
+<body>
+<h1> Welcome Coders!</h1>
+<p> Write HTML, Javascript or CSS here & click run code!</p>
+</body> 
+</html>
+</textarea>
+</form>
+</td>
+
+<td><b><center>Output</b></center>   <center><input onclick="runCode();" type="button" value= "Run Code!"></center>
+<iframe name="targetCode"  id="targetCode"> </iframe> </td>
+</table>
+<script>
+function runCode() {
+var content = document.getElementById('sourceCode').value;
+var iframe = document.getElementById('targetCode');
+iframe = (iframe.contentWindow)?iframe.contentWindow:(iframe.contentDocument)? iframe.contentDocument.document: 
+iframe.contentDocument;
+
+iframe.document.open();
+iframe.document.write(content);
+iframe.document.close();
+return false;
+}
+runCode();
+</script>
+</tr>
+</th>
+</table>
+</div>
+</body>
+</html>
