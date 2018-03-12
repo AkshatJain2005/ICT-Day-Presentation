@@ -1,3 +1,4 @@
+# Pages :
 Home
 Basics of HTML
 Basics of Css
@@ -8,3 +9,10 @@ Make your site Attractive
 Downloads
 Quiz Time
 References
+
+# Color Combos
+  #0b0c10
+  #1f2833
+  #c5c6c7
+  #66fcf1
+  #45a29e
