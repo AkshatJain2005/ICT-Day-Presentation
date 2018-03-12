@@ -1,5 +1,5 @@
 # Pages :
-Home
+Home - Add Advantages of w0eb designing
 Basics of HTML
 Basics of Css
 Learn in deep
