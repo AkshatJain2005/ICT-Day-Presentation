@@ -2,37 +2,23 @@ body {
     margin: 0;
 	font-size: 150%;
 	background-color: #ccffff;
-	font-weight: bold;
 }
-.headingnochange {
-	color: black;
-	background-color: #ccffff;
-}
-p {
-	font-weight: bold;
-}
-
-
 h1 {
-	background-color: #45a29e;
 	border-radius: 10px;
 	color: white;
 }
 
 h2 {
-	background-color: #45a29e;
 	border-radius: 10px;
 	color: white;
 }
 
 h3 {
-	background-color: #45a29e;
 	border-radius: 10px;
 	color: white;
 }
 
-
-ul {
+.ul {
     border-radius: 25px;
     list-style-type: none;
     margin: 0;
